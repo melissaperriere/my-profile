@@ -1,0 +1,81 @@
+/* Colors and fonts */
+
+body{
+  background-color: #D7BEA8;
+  color: #B49286;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+}
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  color: #C78283;
+  font-size: 45px;
+  font-weight: 700;
+}
+h2{
+  color: #C78283; 
+  font-weight: 500;
+  font-size: 25px;
+}
+p{
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: #C78283;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+a:hover{
+ color: #C78283
+}
+
+div{
+	background-color: #F3D9DC
+	padding: 35px;
+	margin: 60px;
+	box-shadow: 0px 10px 30px;
+	border-radius: 4px
+} 
+ 
+ /Custome and Design with class/
+
+ div.container{
+ 	width: 700px;
+ 	margin: 40px auto;
+ }
+
+.card-white{
+	background-color: #F3D9DC
+	padding: 40px;
+	box-shadow: 0px 10px 30px
+	border-radius: 4px;
+	margin: 20px 0px
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #B49286;
+	color: white;
+	padding: 15px 20px
+	border-radius: 4px;
+}
+ @media (max-width: 760px){
+ 	.container{
+ 		width: 600px;
+ 	}
+ }
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
